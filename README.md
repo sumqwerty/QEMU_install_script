@@ -13,26 +13,20 @@ $ egrep -c '(vmx|svm)' /proc/cpuinfo
 $ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
 ```
 
-### 3. Install QEMU and virt-manager
-
-```
-$ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
-```
-
-### 4. Verify status
+### 3. Verify status
 
 ```
 $ sudo systemctl status libvirtd.service
 ```
 
-### 5. Start Default Network for Networking
+### 4. Start Default Network for Networking
 
 ```
 $ sudo virsh net-start default
 $ sudo virsh net-autostart default
 ```
 
-### 6. Add User to libvirt to Allow Access to VMs (replace ubuntu with the user)
+### 5. Add User to libvirt to Allow Access to VMs (replace ubuntu with the user)
 
 ```
 $ sudo adduser ubuntu libvirt
