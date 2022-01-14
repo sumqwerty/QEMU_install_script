@@ -1,7 +1,7 @@
 # QEMU_install_script
 Script to install QEMU and Virt Manager
 
-## To install using install.sh(replace "ubuntu" with the your user)
+## To install using install.sh(replace "ubuntu" with your user)
 ```
 $ sudo chmod +x install.sh && sudo ./install.sh ubuntu
 ```
