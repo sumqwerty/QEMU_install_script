@@ -3,7 +3,7 @@ Script to install QEMU and Virt Manager
 
 ## To install using install.sh(replace "ubuntu" with your user)
 ```
-sudo chmod +x install.sh && sudo ./install.sh ubuntu
+wget "https://raw.githubusercontent.com/sumqwerty/QEMU_install_script/main/install.sh" && sudo chmod +x install.sh && sudo ./install.sh $USER
 ```
 
 
